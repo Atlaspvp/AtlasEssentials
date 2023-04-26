@@ -1,0 +1,16 @@
+name: Atlasaddit
+version: '${project.version}'
+main: com.atlaspvp.atlasaddit.main
+api-version: 1.19
+authors: [ JonahTheEngi ]
+description: Add essential stuff to atlas
+website: Atlaspvp.com
+commands:
+  bless:
+    description: Bless a player
+    usage: /bless <player>
+    permission: atlasaddit.bless
+  help:
+    description: Displays the help menu
+    usage: /help
+    permission: atlasaddit.help
